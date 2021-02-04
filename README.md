@@ -5,7 +5,7 @@ Ao copiar os arquivos você esta concordando com Licenças do MIT
 
 Obs: Não copie os codigos e dps falar que é seu Ok?
 
-Os codigos são js ( Java Script ) Não coloque node.js só coloqu Java Script Ok?
+Os codigos são js ( Java Script ) Não coloque node.js só coloque Java Script Ok?
 
 Espero que você fique feliz =) 
 
