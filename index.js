@@ -2,7 +2,7 @@ const dbd = require("dbd.js")
 
 const bot = new dbd.Bot({
   token:process.env.TOKEN,
-  prefix: "t!"
+  prefix: "prefixo do seu bot"
 })
 
 const app = require("express")();app.get('/', (req, res) =>{res.send("Estou funcionando");});app.listen(8080);
@@ -12,13 +12,13 @@ const app = require("express")();app.get('/', (req, res) =>{res.send("Estou func
 bot.onMessage()
 
 bot.status({
-  text: "Use t!help para saber meus comandos",
-  type: "STREAMING",
-  time: 5
+  text: "Status do seu bot",
+  type: "STREAMING", //LISTENING, STREAMING, PLAYNING, WATCHING
+  time: 5 //TEMPO TROCA DE STATUS
 })
 
 bot.status({
-  text: "Use t!play para ouvir uma musica",
+  text: "Copie bot status até }) para mais status",
   type: "STREAMING",
   time: 5
 })
